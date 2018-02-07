@@ -14,5 +14,8 @@ module.exports = {
                 use: "babel-loader"
             }
         ]
+    },
+    watchOptions: {
+        poll: true
     }
 }
